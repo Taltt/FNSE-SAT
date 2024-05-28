@@ -1,5 +1,5 @@
 # FNSE-SAT
-Demo audio and code of Enhancing Far-Field Recorded Speech with Supervised Adversarial Training
+Demo Audio and Code for the Upcoming Paper “Enhancing Far-Field Speech with Supervised Adversarial Training”
 
 ## Training structure diagram
 ![FNSE-SAT](images/FNSE-SAT.jpg)
