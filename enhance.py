@@ -2,7 +2,7 @@ import torch
 torch.backends.cudnn.enabled = False
 import numpy as np
 import soundfile as sf
-from Lite.causalwAtt import TFGridNet128_hs4 as TFGridNet
+from model.causalTFGridNet import TFGridNet128_hs4 as TFGridNet
 import os
 import torchaudio as audio
 from tqdm import tqdm
