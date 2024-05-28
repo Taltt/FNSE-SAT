@@ -1,0 +1,14 @@
+librosa==0.9.1
+numpy==1.22.4
+packaging==21.3
+pandas==1.4.3
+pypesq==1.2.4
+pystoi==0.3.3
+scipy==1.8.1
+SoundFile==0.10.3.post1
+toml==0.10.2
+torch==1.9.0+cu111
+torch_complex==0.4.3
+torchaudio==0.9.0
+tqdm==4.64.0
+typeguard==2.13.3

@@ -1,0 +1,50 @@
+[network_config]
+model_size = 80
+
+[DDP]
+world_size = 2
+
+[optimizer]
+lr = 0.001
+
+[loss]
+loss_func = "MTFAA"
+
+[listener]
+listener_sr = 16000
+
+[train_dataset]
+length_in_seconds = 8.0
+num_data_per_epoch = 400
+random_start_point = false
+train = true
+DATABASE = 'DNS3_1000hrs'
+
+[train_dataloader]
+batch_size = 2
+num_workers = 4
+drop_last = true
+#shuffle = true
+pin_memory = true
+
+
+[validation_dataset]
+length_in_seconds = 8.0
+random_start_point = false
+train = false
+DATABASE = 'DNS3_1000hrs'
+
+[validation_dataloader]
+batch_size = 1
+num_workers = 4
+#shuffle = false
+pin_memory = true
+
+
+[trainer]
+epochs = 300
+save_checkpoint_interval = 1
+clip_grad_norm_value = 1.0
+exp_path = "/home/nis/tong.lei/pjt6mic/FNSE-SAT/casual_113"
+resume = false
+resume_datetime = "2023-11-24-23h24m"
