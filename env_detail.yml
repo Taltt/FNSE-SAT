@@ -210,4 +210,4 @@ dependencies:
     - urllib3==1.26.9
     - wcwidth==0.2.6
     - zipp==3.8.0
-prefix: /home/nis/tong.lei/miniconda3/envs/clarity
+prefix: /home/nis/tong.lei/miniconda3/envs/fnsesat
