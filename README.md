@@ -7,6 +7,8 @@ Demo Audio and Code for the Upcoming Paper “Enhancing Far-Field Speech with Su
 ## The architecture of MlResDis
 ![MlResDis](images/Discri.jpg)
 
+The non-causal model has been incorporated into the confidentiality clause of the cooperative company, so there is no plan to open source in the short term...
+
 ## cite
 ```bibtex
 @article{lei2025enhancing,
